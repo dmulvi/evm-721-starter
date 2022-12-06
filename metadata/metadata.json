@@ -1,0 +1,24 @@
+{
+    "name": "Ethereum NFT", 
+    "description": "10000 ethereum NFTs for testing",
+    "image": "ipfs://bafkreifgkrfwummzdwqb63khars3gh3iic7kfgoy6df2yhjfnms4btcdvm",
+    "external_url": "https://www.crossmint.io",
+    "attributes":  [
+        {
+            "trait_type": "background", 
+            "value": "gold"
+        },
+        {
+            "trait_type": "chain",
+            "value": "ethereum"
+        },
+        {
+            "trait_type": "contract",
+            "value": "ERC-721"
+        },
+        {
+            "trait_type": "currency",
+            "value": "ETH"
+        }
+    ]
+}

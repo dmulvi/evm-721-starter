@@ -1,0 +1,32 @@
+{
+  "name": "usdc-721-example",
+  "version": "1.0.0",
+  "description": "This is an example project to demonstrate using USDC. It is only a sample. You will very likely need to modify it to fit your needs. No warranty or guarantee of any sort is included with this SAMPLE software package.",
+  "main": "",
+  "author": "Danny Mulvihill",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "hardhat": "^2.10.1"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.4.7",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@openzeppelin/contracts": "^4.7.2",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^9.1.0",
+    "chai": "^4.2.0",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.4.7",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.7.21",
+    "ts-node": ">=8.0.0",
+    "typechain": "^8.1.0",
+    "typescript": ">=4.5.0"
+  }
+}
