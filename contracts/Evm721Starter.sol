@@ -55,13 +55,6 @@ contract Evm721Starter is ERC721, AccessControl {
         mintInternal(_to, _quantity);
     }
 
-    function airdrop(address _to, uint256 _quantity)
-        external 
-        onlyRole(AIRDROPPER_ROLE)
-    {
-        mintInternal(_to, _quantity);
-    }
-
 
     // INTERNAL
 
@@ -77,6 +70,13 @@ contract Evm721Starter is ERC721, AccessControl {
     }   
 
     // ADMIN
+
+    function airdrop(address _to, uint256 _quantity)
+        external 
+        onlyRole(AIRDROPPER_ROLE)
+    {
+        mintInternal(_to, _quantity);
+    }
 
     function setPrice(uint256 _newPrice) external onlyRole(DEFAULT_ADMIN_ROLE) {
         price = _newPrice;
