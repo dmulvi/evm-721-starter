@@ -1,7 +1,7 @@
 {
-  "name": "usdc-721-example",
+  "name": "evm-721-starter",
   "version": "1.0.0",
-  "description": "This is an example project to demonstrate using USDC. It is only a sample. You will very likely need to modify it to fit your needs. No warranty or guarantee of any sort is included with this SAMPLE software package.",
+  "description": "This is an example starter project. It is only a sample. You will very likely need to modify it to fit your needs. No warranty or guarantee of any sort is included with this SAMPLE software package.",
   "main": "",
   "author": "Danny Mulvihill",
   "license": "MIT",
