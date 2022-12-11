@@ -18,7 +18,7 @@ contract Evm721Starter is ERC721, AccessControl {
 
     uint256 public constant MAX_SUPPLY = 10000;
     uint256 public price = 0.001 ether;
-    string public baseUri = "https://bafkreic6xug4ia6n2ogb5b5vfmjmrvjuhypii6cek4uwaf7wi4mgyupse4.ipfs.nftstorage.link";
+    string public baseUri = "https://bafkreifyb5jetemu2qf2pbid7246kvsumzsqim5z3jabr5zrb3fukh35ki.ipfs.nftstorage.link";
 
     bytes32 public constant ADMIN_ROLE = keccak256("ADMIN_ROLE");
     bytes32 public constant AIRDROPPER_ROLE = keccak256("AIRDROPPER_ROLE");
