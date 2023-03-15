@@ -21,6 +21,10 @@ module.exports = {
       url: process.env.MAINNET_RPC_URL,
       accounts: [process.env.PRIVATE_KEY]
     },
+    bsctest: {
+      url: process.env.BSC_TESTNET_RPC_URL,
+      accounts: [process.env.PRIVATE_KEY]
+    },
     localhost: {
       url: "http://127.0.0.1:8545"
     },
@@ -33,9 +37,11 @@ module.exports = {
     },
   },
   etherscan: {
-    apiKey: {
-        goerli: process.env.ETHERSCAN_KEY,
-        polygonMumbai: process.env.POLYGONSCAN_KEY
-    }
+    // apiKey: {
+    //     goerli: process.env.ETHERSCAN_KEY,
+    //     polygonMumbai: process.env.POLYGONSCAN_KEY,
+    //     testnet: process.env.BSCSCAN_KEY
+    // }
+    apiKey: process.env.BSCSCAN_KEY
   }
 };
