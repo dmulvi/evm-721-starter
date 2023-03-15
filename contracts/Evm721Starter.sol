@@ -35,7 +35,7 @@ contract Evm721Starter is ERC721, AccessControl {
     // MODIFIERS
 
     modifier isCorrectPayment(uint256 _quantity) {
-        require(msg.value == (price * _quantity), "Incorrect Payment Sent");
+        require(msg.value >= (price * _quantity), "Incorrect Payment Sent");
         _;
     }
 
