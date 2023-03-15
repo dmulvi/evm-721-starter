@@ -37,11 +37,11 @@ module.exports = {
     },
   },
   etherscan: {
-    // apiKey: {
-    //     goerli: process.env.ETHERSCAN_KEY,
-    //     polygonMumbai: process.env.POLYGONSCAN_KEY,
-    //     testnet: process.env.BSCSCAN_KEY
-    // }
-    apiKey: process.env.BSCSCAN_KEY
+    apiKey: {
+        goerli: process.env.ETHERSCAN_KEY,
+        polygonMumbai: process.env.POLYGONSCAN_KEY
+    }
+    // comment out above and uncomment this to verify on bscscan
+    //apiKey: process.env.BSCSCAN_KEY
   }
 };
