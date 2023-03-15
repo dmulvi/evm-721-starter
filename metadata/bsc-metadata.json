@@ -1,0 +1,24 @@
+{
+    "name": "BSC NFT", 
+    "description": "10000 bsc NFTs for testing",
+    "image": "ipfs://bafybeicb6ug4hdchpsdyynavsfdutw6pnexm6r6eun6i2r432rorbiq2eu",
+    "external_url": "https://www.crossmint.com",
+    "attributes":  [
+        {
+            "trait_type": "background", 
+            "value": "black"
+        },
+        {
+            "trait_type": "chain",
+            "value": "bsc"
+        },
+        {
+            "trait_type": "contract",
+            "value": "ERC-721"
+        },
+        {
+            "trait_type": "currency",
+            "value": "BNB"
+        }
+    ]
+}
